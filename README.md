@@ -20,6 +20,8 @@ Resumen especificaciónes del robot, materiales, costos, medidas.
 * Arduino Uno: [Ver producto](https://www.farnell.com/datasheets/1682209.pdf)
 * Regulador de voltaje: [Ver producto](https://www.ti.com/lit/gpn/lm2596)
 
+# Diagrama de Gantt
+Tiempos para cada cosa
 # Videos de funcionamiento
 
 ## Introducción para ejecutar el robot
