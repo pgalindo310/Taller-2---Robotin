@@ -12,6 +12,17 @@ Este repositorio presenta la implementación de un robot diferencial.
 NOTA: Todos los nodos se encuentran en el paquete robotin_pkg
 
 ## INFORMACIÓN GENERAL DEL ROBOT
+<table align="center">
+  <tr>
+    <td><img src="images/robot1.jpg" alt="Texto alternativo" width="300" height="400"></td>
+    <td><img src="images/robot2.jpg" alt="Texto alternativo" width="300" height="400"></td>
+  </tr>
+</table>
+
+
+
+
+
 # Lista de materiales
 
 * Puente H: [Ver producto](https://naylampmechatronics.com/drivers/11-driver-puente-h-l298n.html)
