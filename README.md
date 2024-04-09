@@ -1,15 +1,6 @@
 # Proyecto final Robotin-Baboni-Chueco 🤖
 
-Este repositorio presenta la implementación de un robot diferencial.
-
-## Introducción
-### Primeros pasos
-1. Instalar rosserial y la librería ros_lib en Arduino, siguiendo el siguiente tutorial: [ROSSERIAL](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup).
-2. Correr: `roscore`
-3. Correr: `rosrun rosserial_python serial_node.py /dev/ttyACM0` para establecer la conexión con el Arduino.
-4. Ir al workspace: `cd robot_ws && source devel/setup.bash`
-
-NOTA: Todos los nodos se encuentran en el paquete robotin_pkg
+Este repositorio presenta la implementación de un robot diferencial como proyecto del curso de Robotica. El objetivo es diseñar y construir un robot móvil completamente autónomo, cuyas dimensiones no excedan los 20cm x 25cm. Este robot debe ser capaz de operar con baterías y utilizar el sistema Robot Operating System (ROS) para la adquisición de datos. Una de sus principales funciones será la manipulación y lanzamiento de una pelota de ping pong de colores específicos, (puede ser roja, amarrilla o azul) y de ciertas dimensiones. Además, deberá tener una comunicación bidireccional con un nodo maestro para recibir instrucciones y autorizaciones durante la prueba. Finalmente, el robot deberá ser capaz de navegar autónomamente en un entorno con obstáculos, recoger una pelota de ping pong del color indicado y lanzarla a una distancia mínima de 1 metro.
 
 ## INFORMACIÓN GENERAL DEL ROBOT
 <table align="center">
@@ -18,10 +9,7 @@ NOTA: Todos los nodos se encuentran en el paquete robotin_pkg
     <td><img src="images/robot2.jpg" alt="Texto alternativo" width="300" height="400"></td>
   </tr>
 </table>
-
-
-
-
+Resumen especificaciónes del robot, materiales, costos, medidas.
 
 # Lista de materiales
 
@@ -29,6 +17,17 @@ NOTA: Todos los nodos se encuentran en el paquete robotin_pkg
 * Raspberry Pi 4: [Ver producto](https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-4-Product-Brief.pdf)
 * Arduino Uno: [Ver producto](https://www.farnell.com/datasheets/1682209.pdf)
 * Regulador de voltaje: [Ver producto](https://www.ti.com/lit/gpn/lm2596)
+
+# Videos de funcionamiento
+
+## Introducción para ejecutar el robot
+### Primeros pasos
+1. Instalar rosserial y la librería ros_lib en Arduino, siguiendo el siguiente tutorial: [ROSSERIAL](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup).
+2. Correr: `roscore`
+3. Correr: `rosrun rosserial_python serial_node.py /dev/ttyACM0` para establecer la conexión con el Arduino.
+4. Ir al workspace: `cd robot_ws && source devel/setup.bash`
+
+NOTA: Todos los nodos se encuentran en el paquete robotin_pkg
 
 ## Punto 1  ⌨️ OPERAR EL TURTLEBOT 🐢️ MEDIANTE EL TECLADO ⌨️ 
 * Cargar el archivo `teleop_arduino` al Arduino.
