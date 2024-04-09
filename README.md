@@ -1,6 +1,8 @@
 # Proyecto final Robotin-Baboni-Chueco 🤖
 
-Este repositorio presenta la implementación de un robot diferencial como proyecto del curso de Robotica. El objetivo es diseñar y construir un robot móvil completamente autónomo, cuyas dimensiones no excedan los 20cm x 25cm. Este robot debe ser capaz de operar con baterías y utilizar el sistema Robot Operating System (ROS) para la adquisición de datos. Una de sus principales funciones será la manipulación y lanzamiento de una pelota de ping pong de colores específicos, (puede ser roja, amarrilla o azul) y de ciertas dimensiones. Además, deberá tener una comunicación bidireccional con un nodo maestro para recibir instrucciones y autorizaciones durante la prueba. Finalmente, el robot deberá ser capaz de navegar autónomamente en un entorno con obstáculos, recoger una pelota de ping pong del color indicado y lanzarla a una distancia mínima de 1 metro.
+<div style="text-align: justify;">
+    Este repositorio presenta la implementación de un robot diferencial como proyecto del curso de Robotica. El objetivo es diseñar y construir un robot móvil completamente autónomo, cuyas dimensiones no excedan los 20cm x 25cm. Este robot debe ser capaz de operar con baterías y utilizar el sistema Robot Operating System (ROS) para la adquisición de datos. Una de sus principales funciones será la manipulación y lanzamiento de una pelota de ping pong de colores específicos, (puede ser roja, amarrilla o azul) y de ciertas dimensiones. Además, deberá tener una comunicación bidireccional con un nodo maestro para recibir instrucciones y autorizaciones durante la prueba. Finalmente, el robot deberá ser capaz de navegar autónomamente en un entorno con obstáculos, recoger una pelota de ping pong del color indicado y lanzarla a una distancia mínima de 1 metro.
+</div>
 
 ## INFORMACIÓN GENERAL DEL ROBOT
 <table align="center">
